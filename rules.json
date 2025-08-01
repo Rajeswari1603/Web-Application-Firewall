@@ -1,0 +1,20 @@
+[
+     "<script.*?>.*?</script>",
+    "select\\s+.*\\s+from",
+    "union\\s+select",
+    "insert\\s+into",
+    "drop\\s+table",
+    "\\.\\.\\/\\.\\.\\/.*",
+    "<iframe.*?>.*?</iframe>",
+    "alert\\s*\\(",
+    "onerror\\s*=",
+    "onload\\s*=",
+    "sleep\\s*\\(",
+    "benchmark\\s*\\(",
+    "load_file\\s*\\(",
+    "into\\s+outfile",
+    "etc\\/passwd",
+    "document\\.cookie",
+    "%3cscript%3e",
+    "<img.*?src=.*?onerror=.*?>" 
+]
